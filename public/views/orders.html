@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title>UrbanMart - Orders</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav container">
+        <a href="/" class="logo">UrbanMart</a>
+      </div>
+    </header>
+    <section class="container">
+      <h2 class="section-title">Your Orders</h2>
+      <form id="orders-form">
+        <div>
+          <label for="phone">Enter Phone Number</label>
+          <input type="tel" id="phone" name="phone" required />
+        </div>
+        <button type="submit">Retrieve Orders</button>
+      </form>
+      <div id="orders-list"></div>
+    </section>
+    <script src="../scripts/orders.js"></script>
+  </body>
+</html>
